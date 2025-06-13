@@ -84,7 +84,7 @@ export default function ImageCarouselSection({ language }: ImageCarouselSectionP
 
   useEffect(() => {
     fetch(
-    `https://a20b-2a02-4780-14-b15c-00-1.ngrok-free.app/api/gallery-content?populate[galleryButton]=true&populate[heroGalleryInfo]=true&populate[slides]=true&populate[facilities]=true&populate[facilitiesIntro]=true&populate[privateEnvironmentButton]=true&locale=${language}`
+    `https://kxcjd596-1337.brs.devtunnels.ms/api/gallery-content?populate[galleryButton]=true&populate[heroGalleryInfo]=true&populate[slides]=true&populate[facilities]=true&populate[facilitiesIntro]=true&populate[privateEnvironmentButton]=true&locale=${language}`
   )
       .then((res) => res.json())
       .then((json) => {
