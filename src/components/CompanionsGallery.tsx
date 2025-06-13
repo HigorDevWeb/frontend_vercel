@@ -91,7 +91,7 @@ export default function CompanionsGallery({ language }: CompanionsGalleryProps) 
     // ✅ Buscar título, subtítulo e botão de "View All"
     async function fetchGalleryContent() {
       try {
-        const res = await fetch(`https://a20b-2a02-4780-14-b15c-00-1.ngrok-free.app/api/companions-gallery-content?locale=${language}`);
+        const res = await fetch(`https://kxcjd596-1337.brs.devtunnels.ms/api/companions-gallery-content?locale=${language}`);
 
         const json = await res.json();
         const data = json.data;
