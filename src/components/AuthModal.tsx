@@ -103,7 +103,7 @@ export default function AuthModal({
     const fetchLoginContent = async () => {
       try {
         const res = await axios.get<{ data: LoginContent }>(
-          `https://a20b-2a02-4780-14-b15c-00-1.ngrok-free.app/api/login-content?locale=${language}`
+          `https://kxcjd596-1337.brs.devtunnels.ms/api/login-content?locale=${language}`
         );
 
         const data = res.data?.data;
@@ -120,7 +120,7 @@ export default function AuthModal({
     const fetchRegisterContent = async () => {
       try {
         const res = await axios.get<{ data: RegisterPageContent }>(
-          `https://a20b-2a02-4780-14-b15c-00-1.ngrok-free.app/api/register-page-content?populate=*&locale=${language}`
+          `https://kxcjd596-1337.brs.devtunnels.ms/api/register-page-content?populate=*&locale=${language}`
         );
 
         const data = res.data?.data;
@@ -141,7 +141,7 @@ export default function AuthModal({
     const fetchResetContent = async () => {
       try {
         const res = await axios.get<{ data: ResetPasswordContent }>(
-          `https://a20b-2a02-4780-14-b15c-00-1.ngrok-free.app/api/reset-password-content?locale=${language}`
+          `https://kxcjd596-1337.brs.devtunnels.ms/api/reset-password-content?locale=${language}`
         );
 
         const data = res.data?.data;
