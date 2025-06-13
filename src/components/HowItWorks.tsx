@@ -36,7 +36,7 @@ export default function HowItWorksSection({ language }: WhyChooseUsSectionProps)
   const [button, setButton] = useState({ text: "", icon: "" });
 
   useEffect(() => {
-    fetch(`https://a20b-2a02-4780-14-b15c-00-1.ngrok-free.app/api/why-choose-content?populate[cards]=true&populate[bottomButton]=true&locale=${language}`)
+    fetch(`https://kxcjd596-1337.brs.devtunnels.ms/api/why-choose-content?populate[cards]=true&populate[bottomButton]=true&locale=${language}`)
 
       .then((res) => res.json())
       .then((json) => {
@@ -102,7 +102,7 @@ export default function HowItWorksSection({ language }: WhyChooseUsSectionProps)
   }, [language]);
   
   useEffect(() => {
-    fetch(`https://a20b-2a02-4780-14-b15c-00-1.ngrok-free.app/api/why-choose-section?populate[bottomCards]=true&locale=${language}`)
+    fetch(`https://kxcjd596-1337.brs.devtunnels.ms/api/why-choose-section?populate[bottomCards]=true&locale=${language}`)
 
       .then((res) => res.json())
       .then((json) => {
