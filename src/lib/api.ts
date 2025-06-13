@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://usable-crown-91e30743ba.strapiapp.com";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://a20b-2a02-4780-14-b15c-00-1.ngrok-free.app";
 
 export async function fetchFromStrapi(endpoint: string) {
   try {
