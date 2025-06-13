@@ -91,7 +91,7 @@ export default function MassageServicesSection({ language }: MassageServicesSect
     useState("Special Options");
 
   useEffect(() => {
-   fetch(`https://usable-crown-91e30743ba.strapiapp.com/api/massage-services-content?populate[massageCards][populate][options]=true&populate[extraCards][populate]=icon&populate[partyCard][populate]=*&populate[jacuzziServices][populate]=packages&populate[specialOptions]=true&populate[professionalBadge]=true&locale=${language}`)
+   fetch(`https://a20b-2a02-4780-14-b15c-00-1.ngrok-free.app/api/massage-services-content?populate[massageCards][populate][options]=true&populate[extraCards][populate]=icon&populate[partyCard][populate]=*&populate[jacuzziServices][populate]=packages&populate[specialOptions]=true&populate[professionalBadge]=true&locale=${language}`)
 
 
       .then((res) => res.json())
